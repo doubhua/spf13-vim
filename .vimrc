@@ -133,7 +133,7 @@
     set viewoptions=folds,options,cursor,unix,slash " Better Unix / Windows compatibility
     set virtualedit=onemore             " Allow for cursor beyond last character
     set history=1000                    " Store a ton of history (default is 20)
-    set spell                           " Spell checking on
+    "set spell                           " Spell checking on
     set hidden                          " Allow buffer switching without saving
     set iskeyword-=.                    " '.' is an end of word designator
     set iskeyword-=#                    " '#' is an end of word designator
@@ -1087,7 +1087,7 @@
             elseif OSX() && has("gui_running")
                 set guifont=Andale\ Mono\ Regular:h12,Menlo\ Regular:h11,Consolas\ Regular:h12,Courier\ New\ Regular:h14
             elseif WINDOWS() && has("gui_running")
-                set guifont=Andale_Mono:h10,Menlo:h10,Consolas:h10,Courier_New:h10
+                set guifont=Powerline\ Consolas:h11,Andale_Mono:h10,Menlo:h10,Consolas:h10,Courier_New:h10
             endif
         endif
     else
